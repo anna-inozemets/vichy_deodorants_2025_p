@@ -2404,7 +2404,7 @@ p.slide-numbering.left {
 .slide--3__left-icon::before {
   content: '';
   position: absolute;
-  right: -8.5em;
+  right: calc(50% - 21em);
   top: 12.5em;
   width: 6em;
   aspect-ratio: 1 / 1;
@@ -2445,7 +2445,7 @@ p.slide-numbering.left {
 .slide--4__left-icon::before {
   content: '';
   position: absolute;
-  right: -8.5em;
+  right: calc(50% - 21em);
   top: 12.5em;
   width: 6em;
   aspect-ratio: 1 / 1;
@@ -2487,7 +2487,7 @@ p.slide-numbering.left {
 .slide--5__left-icon::before {
   content: '';
   position: absolute;
-  right: -8.5em;
+  right: calc(50% - 21em);
   top: 19em;
   width: 6em;
   aspect-ratio: 1 / 1;
@@ -2706,6 +2706,7 @@ p.slide-numbering.left {
   pointer-events: none;
   transition: all 0.25s linear;
   z-index: 2;
+  opacity: 0.75;
 }
 .slide--10__block.first .slide--10__bottles::before {
   top: 2.8em;
@@ -2761,6 +2762,7 @@ p.slide-numbering.left {
   pointer-events: none;
   transition: all 0.25s linear;
   z-index: 2;
+  opacity: 0.75;
 }
 .slide--11__block.first .slide--11__bottles::before,
 .slide--11__block.second .slide--11__bottles::before {
